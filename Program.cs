@@ -32,7 +32,8 @@ namespace _2
                     }
                 }
             }
-            Console.WriteLine(depth * horizontal);
+            Console.WriteLine("Part 1 solution:\n" +
+                depth * horizontal);
         }
         public static void PartTwo()
         {
@@ -64,7 +65,8 @@ namespace _2
                     }
                 }
             }
-            Console.WriteLine(depth * horizontal);
+            Console.WriteLine("Part 2 solution:\n" +
+                depth * horizontal);
         }
 
         static void Main(string[] args)
